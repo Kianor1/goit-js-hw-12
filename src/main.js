@@ -62,6 +62,7 @@ async function onFormSubmit(e) {
       changeBtnStatus(result.totalHits);
       hideLoader();
     }
+    e.target.elements.query.value = '';
   } catch (err) {
     console.log(`Error: ${err}`);
   }
