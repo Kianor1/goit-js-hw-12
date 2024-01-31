@@ -5,7 +5,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import axios from 'axios';
 
 const formElem = document.querySelector('.search-form');
-const list = document.querySelector('.gallery');
+const list = document.querySelector('.gallery-list');
 const loadMoreBtn = document.querySelector('.js-more-btn');
 const loader = document.querySelector('.js-loader');
 
@@ -142,7 +142,7 @@ function hideLoader() {
   loader.classList.add('is-hidden');
 }
 
-const lightbox = new SimpleLightbox('.pictures-list a', {
+const lightbox = new SimpleLightbox('.gallery-list a', {
   captionDelay: 250,
   captionsData: 'alt',
 });
