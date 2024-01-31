@@ -16,19 +16,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  width: 100vw;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-.conteiner {
-  width: 1440px;
-  padding-top: 36px;
-  margin: 0 auto;
-}
-
 .loader {
   width: 48px;
   height: 48px;
